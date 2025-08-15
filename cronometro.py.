@@ -1,0 +1,10 @@
+import time
+
+def cronometro(segundos):
+  for i in range(segundos, 0, -1):
+    print(f'{i} segundos restantes...')
+    time.sleep(1)
+    print('Tempo esgotado!')
+
+# Tempo fixo de 10 segundos
+cronometro 10
